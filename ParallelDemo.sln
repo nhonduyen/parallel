@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelDemo", "ParallelDemo\ParallelDemo.csproj", "{9AAD9B8A-C022-4DCC-AE7F-2F80D1185479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocalVariables", "ThreadLocalVariables\ThreadLocalVariables.csproj", "{C8492257-3C2D-49D0-8C9E-A10172C8F89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionLocalvariables", "PartitionLocalvariables\PartitionLocalvariables.csproj", "{AD202A66-ADBD-4BED-B1CA-22F6AC701253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelForEachLoop", "CancelForEachLoop\CancelForEachLoop.csproj", "{BAB7240D-35CA-4E18-8D9A-F887FC053178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleExceptions", "HandleExceptions\HandleExceptions.csproj", "{89529A44-1AA3-480F-A70C-CE12C8456484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedUpSmallLoopBodies", "SpeedUpSmallLoopBodies\SpeedUpSmallLoopBodies.csproj", "{E44D15CA-50AD-4B38-986F-46CCE396CFBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AAD9B8A-C022-4DCC-AE7F-2F80D1185479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAD9B8A-C022-4DCC-AE7F-2F80D1185479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAD9B8A-C022-4DCC-AE7F-2F80D1185479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAD9B8A-C022-4DCC-AE7F-2F80D1185479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8492257-3C2D-49D0-8C9E-A10172C8F89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8492257-3C2D-49D0-8C9E-A10172C8F89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8492257-3C2D-49D0-8C9E-A10172C8F89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8492257-3C2D-49D0-8C9E-A10172C8F89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD202A66-ADBD-4BED-B1CA-22F6AC701253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD202A66-ADBD-4BED-B1CA-22F6AC701253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD202A66-ADBD-4BED-B1CA-22F6AC701253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD202A66-ADBD-4BED-B1CA-22F6AC701253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB7240D-35CA-4E18-8D9A-F887FC053178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB7240D-35CA-4E18-8D9A-F887FC053178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB7240D-35CA-4E18-8D9A-F887FC053178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB7240D-35CA-4E18-8D9A-F887FC053178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89529A44-1AA3-480F-A70C-CE12C8456484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89529A44-1AA3-480F-A70C-CE12C8456484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89529A44-1AA3-480F-A70C-CE12C8456484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89529A44-1AA3-480F-A70C-CE12C8456484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44D15CA-50AD-4B38-986F-46CCE396CFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44D15CA-50AD-4B38-986F-46CCE396CFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44D15CA-50AD-4B38-986F-46CCE396CFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44D15CA-50AD-4B38-986F-46CCE396CFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
