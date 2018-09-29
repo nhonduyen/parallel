@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
+using System.Threading;
 
 namespace SpeedUpSmallLoopBodies
 {
@@ -24,7 +23,7 @@ namespace SpeedUpSmallLoopBodies
                 for (int i = range.Item1; i < range.Item2; i++)
                 {
                     results[i] = source[i] * Math.PI;
-                    Console.WriteLine("From {0} To {1} partition {2}  result {3}", i, range.Item2, range, results[i]);
+                    Console.WriteLine("From {0} To {1} partition {2}  result {3} thread #{4}", i, range.Item2, range, results[i], Thread.CurrentThread.ManagedThreadId);
                 }
             });
             Console.WriteLine("Complete. Print result? Y/N");
