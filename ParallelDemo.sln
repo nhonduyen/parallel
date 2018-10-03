@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowReadWriteMessage", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerConsumerDataflowPattern", "ProducerConsumerDataflowPattern\ProducerConsumerDataflowPattern.csproj", "{616B04ED-C347-408B-93D4-449C20849070}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowBlockRecieveData", "DataflowBlockRecieveData\DataflowBlockRecieveData.csproj", "{D49758C1-D082-427E-85F3-1DAD20047E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowPipeline", "DataflowPipeline\DataflowPipeline.csproj", "{2BC080D3-A461-452F-B2FC-41BEA95BE150}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,14 @@ Global
 		{616B04ED-C347-408B-93D4-449C20849070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616B04ED-C347-408B-93D4-449C20849070}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616B04ED-C347-408B-93D4-449C20849070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49758C1-D082-427E-85F3-1DAD20047E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49758C1-D082-427E-85F3-1DAD20047E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49758C1-D082-427E-85F3-1DAD20047E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49758C1-D082-427E-85F3-1DAD20047E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
