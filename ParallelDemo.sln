@@ -35,6 +35,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowBlockRecieveData", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowPipeline", "DataflowPipeline\DataflowPipeline.csproj", "{2BC080D3-A461-452F-B2FC-41BEA95BE150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnlinkDataflowBlock", "UnlinkDataflowBlock\UnlinkDataflowBlock.csproj", "{F9648C6C-45D8-47B1-B503-E20BF6CA08A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowMultiResources", "DataflowMultiResources\DataflowMultiResources.csproj", "{C7ED53F0-AC02-4F11-AEEF-1117775B3182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowDegreeParallism", "DataflowDegreeParallism\DataflowDegreeParallism.csproj", "{12D16AE2-1C2C-4916-B275-F170C15C4955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowBatchBlock", "DataflowBatchBlock\DataflowBatchBlock.csproj", "{D76CB049-D5DF-43BD-9980-A615613B8C37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +117,22 @@ Global
 		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC080D3-A461-452F-B2FC-41BEA95BE150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9648C6C-45D8-47B1-B503-E20BF6CA08A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9648C6C-45D8-47B1-B503-E20BF6CA08A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9648C6C-45D8-47B1-B503-E20BF6CA08A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9648C6C-45D8-47B1-B503-E20BF6CA08A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7ED53F0-AC02-4F11-AEEF-1117775B3182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7ED53F0-AC02-4F11-AEEF-1117775B3182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7ED53F0-AC02-4F11-AEEF-1117775B3182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7ED53F0-AC02-4F11-AEEF-1117775B3182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D16AE2-1C2C-4916-B275-F170C15C4955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D16AE2-1C2C-4916-B275-F170C15C4955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D16AE2-1C2C-4916-B275-F170C15C4955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D16AE2-1C2C-4916-B275-F170C15C4955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76CB049-D5DF-43BD-9980-A615613B8C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76CB049-D5DF-43BD-9980-A615613B8C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76CB049-D5DF-43BD-9980-A615613B8C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76CB049-D5DF-43BD-9980-A615613B8C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
